@@ -66,7 +66,7 @@ function setup() {
 
 function draw() {
   if(bg){
-    background(56,44,44);
+    background(bg);
   Engine.update(engine); 
   
   textSize(20);
