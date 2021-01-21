@@ -70,7 +70,9 @@ function draw() {
   Engine.update(engine); 
   
   textSize(20);
-  fill(255);
+  strokeWeight(1);
+  stroke(0);
+  fill(0);
   text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks", 450, 70);
   text("Press Space to get a second chance to play",1100,550);
   text("SCORE: "+ score , 1300,75);
