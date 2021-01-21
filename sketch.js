@@ -166,7 +166,7 @@ async function getBgImg(){
   var hour = datetime.slice(11,13);
   console.log(hour);
   if(hour >= 6 && hour<=19){
-      bg = (56,44,44);
+      bg = (190);
   } else {
       bg = (56);
   }
